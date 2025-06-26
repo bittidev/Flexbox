@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercício de Flexbox</title>
+  <style>
+    body {
+      background: #d8d2cd;
+      font-family: sans-serif;
+      padding: 10px;
+    }
+
+    .container {
+      display: flex;
+      background: cornflowerblue;
+      margin: 10px 0;
+      padding: 5px;
+      border: 2px solid white;
+    }
+
+    .item {
+      background: white;
+      margin: 2px;
+      padding: 10px;
+      width: 40px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    /* 1 */
+    .c1 {
+      flex-direction: row-reverse;
+      justify-content: flex-start;
+    }
+
+    /* 2 */
+    .c2 {
+      flex-direction: column-reverse;
+    }
+
+    /* 3 */
+    .c3 {
+      justify-content: center;
+    }
+
+    /* 4 */
+    .c4 {
+      justify-content: flex-end;
+    }
+
+    /* 5 */
+    .c5 {
+      justify-content: space-between;
+    }
+
+    /* 6 */
+    .c6 {
+      justify-content: space-around;
+    }
+
+    /* 7 */
+    .c7 {
+      flex-wrap: wrap;
+      max-width: 130px;
+    }
+
+    /* 8 */
+    .c8 {
+      flex-wrap: wrap;
+      max-width: 100px;
+    }
+
+    /* 9 */
+    .c9 {
+      flex-wrap: wrap;
+      max-width: 70px;
+    }
+
+    /* 10 */
+    .c10 {
+      flex-direction: column;
+      align-items: center;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="container c1">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+  </div>
+
+  <div class="container c2">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+  </div>
+
+  <div class="container c3">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+  </div>
+
+  <div class="container c4">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+  </div>
+
+  <div class="container c5">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+  </div>
+
+  <div class="container c6">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+  </div>
+
+  <div class="container c7">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+  </div>
+
+  <div class="container c8">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+  </div>
+
+  <div class="container c9">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+  </div>
+
+  <div class="container c10">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+  </div>
+
+</body>
+</html>
